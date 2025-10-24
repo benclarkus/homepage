@@ -1,0 +1,33 @@
+title: Ben Clark
+email: hello@benclark.us
+description: >-
+  Portfolio and projects by Ben Clark — healthcare finance, data engineering, and shelter social media campaigns.
+baseurl: ""
+url: "https://www.benclark.us"
+markdown: kramdown
+theme: null
+plugins: []
+permalink: pretty
+# Ensure assets resolve on GitHub Pages and custom domain
+include:
+  - assets
+  - images
+exclude:
+  - node_modules
+  - vendor
+  - README.md
+  - README.txt
+  - LICENSE
+
+# Collections (optional for projects/posts later)
+collections:
+  projects:
+    output: true
+
+# Defaults (optional)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
